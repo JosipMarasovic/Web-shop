@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vjezba</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0; 
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+
+        .left, .right {
+            text-align: center;
+        }
+
+        .left {
+            width: 30vw;
+            background-color: darkgreen;
+            color: white;
+        }
+
+        .right {
+            width: 68vw;
+            background-color: yellow;
+            color: black;
+        }
+
+        .right-title {
+            font-size: 5rem;
+        }
+
+        .right-text-align {
+            text-align: start;
+            font-size: 2rem;
+        }
+        .iframe-container {
+            margin-top: 20px;
+        }
+
+        .iframe-container iframe {
+            width: 100%;
+            height: 300px; 
+            border: none; 
+            display: none; 
+        }
+
+
+        .footer {
+            background-color:lightgrey;
+            width: 60%;
+            margin: 0 auto; 
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td class="left">
+                <a href="#" class="left-content"><img src="https://www.orientsoftware.com/Themes/OrientSoftwareTheme/Content/Images/blog/2021-12-16/what-can-you-do-with-javascript-thumb.jpg" width="200" height="200"></a><br>
+                <figcaption>Buy a book on Amazon.com</figcaption><br>
+                <input type="text" class="left-content" placeholder="Search Something"><br><br>
+                <button>Search</button><br>
+                <p class="left-content">Site Map</p><br>
+                <p class="left-content">Home Pages</p><br>
+                <a href="#" class="left">Main Tutorials:</a><br>
+                <a href="#" class="left">Beginner info</a><br>
+                <a href="#" class="left">Basic HTML Tutorial</a><br>
+                <a href="#" class="left">Table Tutor</a><br>
+                <a href="#" class="left">Form Tutor</a><br>
+                <a href="#" class="left">Frames Tutor</a><br><br><br>
+                <a href="#" class="left">Web tutor v4.0</a><br>
+                <a href="" class="left">Direct Download</a>
+            </td>
+
+            <td class="right">
+                <div class="right-title">Large Title</div>
+                <p class="right-content">JavaScript is scripting language for creating dynamic web content. It creates elements for improving site visitor interactions with web pages, drop down menu, animated graphics, and dynamic background-color</p>
+                <p class="right-content">JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.Sep 25, 2023</p>
+                <p class="right-text-align">Top 5 reasons u should learn and practice JavaScript</p>
+                <p>-> JavaScript is core technology for web development</p>
+                <p>-> JavaScript dominates market</p>
+                <p>-> Front end frameworks</p>
+                <p>-> Easy to learn</p>
+                <p>-> JavaScript is incredibly popular</p>
+                <p class="right-text-align">How to find us:</p>
+                <a href="https://www.youtube.com/embed/6HCw2OSOqeA?si=6C64BGH3j40BbTSg" target="iframeContainer">Open iframe</a>
+                <div class="iframe-container" id="iframeContainer">
+                    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/6HCw2OSOqeA?si=6C64BGH3j40BbTSg" allowfullscreen></iframe>
+                </div>
+
+                <div class="footer">
+                    <p> <a href="https://www.amazon.com/" target="_blank">Contact us:https://www.amazon.com/</a> </p>
+                    <p>&copy; 2023 Your Website. All rights reserved.</p>
+                    <a href="https://www.amazon.com/" target="_blank">Privacy Policy</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

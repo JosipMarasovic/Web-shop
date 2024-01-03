@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0; 
+            overflow: hidden; 
+        }
+
+        header {
+            height: 75px;
+            border-bottom: 1px solid lightgray;
+            display: flex;
+            align-items: center; 
+            justify-content: space-between;
+        }
+
+        .logo {
+            padding: 10px;
+        }
+
+        .logo img {
+            width: 220px;
+            height: 50px;
+        }
+
+        .social-links {
+            display: flex;
+            margin-right: 10px; 
+        }
+
+        .ostaloHead {
+            margin: 0 10px;
+            padding: 10px;
+        }
+
+        .ostaloHead a {
+            text-decoration: none;
+            font-size: 18px; 
+            color: darkgray; 
+        }
+
+        .half-width {
+            width: 50%;
+            float: left;
+            box-sizing: border-box;
+            padding: 20px;
+            height: calc(100vh - 75px); 
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .half-width h2 {
+            font-size: 36px; 
+            margin-bottom: 20px; 
+        }
+
+        .half-width ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+
+        .half-width li {
+            font-size: 30px; 
+            margin-bottom: 20px; 
+        }
+
+        .half-width:nth-child(odd) {
+            background-color: white; 
+        }
+
+        .half-width:nth-child(even) {
+          
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(Images/Backgroud.jpg);
+             background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+        }
+
+        .instagram:hover {
+           
+           background-color: orange;
+       }
+       .facebook {
+           color:orange; 
+       }
+       .facebook:hover {
+           color: white;
+           background-color: orange;
+       }
+       .onama:hover a{
+           color: orange;
+       }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><img src="Images/Logo Orahovica.png" alt="Left Logo"></div>
+        <div class="social-links">
+            <div class="ostaloHead onama"><a href="https://pporahovica.hr/o-nama/" target="_blank" style="font-size: 12px;">O NAMA</a></div>
+            <div class="ostaloHead facebook"><a href="https://www.facebook.com/pporahovica/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></div>
+            <div class="ostaloHead instagram"><a href="https://www.instagram.com/pp____orahovica" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></div>
+          
+         
+        </div>
+    </header>
+
+    <div class="half-width">
+       
+        <h2>Objavljujemo totalnu rasprodaju neiskoristenih rezervnih dijelova mehanizacije:</h2>
+        <ul>
+            <li>Lezajevi, semerinzi, vijacna roba, kardani, remenje i filteri</li>
+            <li>Renomirani proizvodaci rezervnih dijelova</li>
+            <li>Izvrsno stanje</li>
+            <li>Povoljna cijena</li>
+            <li>Dijelovi se mogu pogledati svakim radnim danom 8-14 sati na adresi Pustara 1, 33513 Zdenci</li>
+        </ul>
+    </div>
+
+    <div class="half-width">
+        <div class="row align-items-stretch no-gutters min-vh-100">
+            <div class="col-lg-6 col-md-7 order-md-last">
+                <div class="vertical-middle px-lg-5 form-widget" data-loader="button">
+                    <div class="p-2 p-md-3">
+                        <h1 class="mb-4">TOTALNA RASPRODAJA NEKORIŠTENIH REZERVNIH DIJELOVA MEHANIZACIJE</h1>
+                        <div class="form-result"></div>
+                        <form class="mb-0" action="contact.php" method="post">
+                            <fieldset class="check_email">
+                                <input type="email" name="check_email" id="check_email" placeholder="check_email">
+                            </fieldset>
+                            <div class="form-process">
+                                <div class="css3-spinner">
+                                    <div class="css3-spinner-scaler"></div>
+                                </div>
+                            </div>
+    
+                            <div class="row">
+                                <div class="col-12 form-group mb-4">
+                                    <div class="no-gutters price-block-wrap row align-items-stretch">
+                                        <label for="op-plan-subscription-from-free" class="col-sm-12 price-block mb-0 py-3 px-4">
+                                            <a href="tel:+385914366609">
+                                                <h2 class="h1 font-weight-bold color mb-0">Nazovite nas na broj 091/43 666 09 ili pošaljite upit:</h2>
+                                            </a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="name">Vaše ime i prezime<small class="text-danger"> *</small></label>
+                                    <input type="text" id="name" name="name" value="" class="form-control " required placeholder="Unesite svoje ime" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <label for="phone">Broj telefona<small class="text-danger"> *</small></label>
+                                    <input type="text" name="phone" id="phone" class="form-control " required value="" placeholder="Unesite broj telefona">
+                                </div>
+                                <div class="col-12 form-group">
+                                    <label for="email">Email Adresa<small class="text-danger"> *</small></label>
+                                    <input type="email" name="email" id="email" class="form-control " value="" required placeholder="Unesite Email">
+                                </div>
+                                <div class="col-12 form-group">
+                                    <label for="op-plan-subscription-from-text">Kontaktirajte nas</label>
+                                    <textarea name="message" id="op-plan-subscription-from-text" class="form-control " value="" placeholder="Unesite poruku" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-2">
+                                        <span class="checkbox checkbox2">
+                                            <label class="container2">
+                                                <input id="potvrdi" type="checkbox" required="">
+                                                <span class="checkmark"> </span> <span class="span-agree">Slažem se</span>
+                                            </label>
+                                            <div class="modal-privola-text">
+                                                Korištenjem ovog obrasca prihvaćate prikupljanje i obradu osobnih podataka danih u obrascu bez kojih vaš zahtjev u obrascu ne može biti ispunjen.
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-4 d-flex justify-content-between align-items-center">
+                                    <button type="submit" class="button m-0 button-large button-rounded">Pošalji upit</button>
+                                    <a class="mb-3 mb-md-0" target="_blank" href="https://pporahovica.hr/"><u>Posjeti naš Web</u></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
