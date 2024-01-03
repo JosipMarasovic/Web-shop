@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <form action="hvala-vam.html" method="get">
+
+        <p>
+            <label>ime i prezime</label>
+            <input type="text" name="Ime i prezime" placeholder="Ime i prezime">
+        </p>
+        <p>
+            <label>Email</label>
+            <input type="email" name="Email" placeholder="">
+        </p>
+
+        <p>
+            <label>Odaberite</label>
+            <input type="text" name="OIB" placeholder="OIB">
+        </p>
+
+
+    <button type="submit">Posalji zathev</button>
+    <button type="reset">Reset</button>
+
+
+
+
+    <select name="sladoled" size="7" multiple>
+
+        <optgroup label="Tradcionalni">
+            <option>Vanilla</option>
+            <option>Cokolada</option>
+        </optgroup>
+       
+
+        <optgroup label="Sljok">
+            <option>Praline</option>
+            <option>kikiriki</option>
+            <option>CandyCorn</option>
+        </optgroup>
+
+    </select>
+
+
+    <p>
+
+        <label>Broj gostiju
+            <input type="number" name="guests" min="1" max 6>
+        </label>
+
+    </p>
+
+    <p>
+        <label>Zadovoljstvo (0-10)
+            <input type="range" name="Zadovoljstvo" min="0" max="10" step="1">
+        </label>
+    </p>
+
+    </form>
+
+   
+    <fieldset>
+        <legend>Pretplati se na novosti</legend>
+        <ul>
+            <li><label>Dodaje me na <input type="radio" name="list" value="da" checked></label></li>
+            <li>><label>Ne hvala <input type="radio" name="list" value="ne"></label>></label></li>
+        </ul>
+    </fieldset>
+
+    <fieldset>
+        <legend>Informacije o koristniku</legend>
+        <ul>
+
+            <li><label>Puno ime <input type="text" name="Full name"></label></li>
+            <li><label>Emadil <input type="text" name="email"></label></li>
+            <li><label>Drzava: <input type="text" name="state"></label></li>
+
+
+        </ul>
+    </fieldset>
+
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{ margin: 0;
+       
+    }
+
+    section{ height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    div{height: 100%;
+        width: 25%;
+        display: inline-flex;
+        align-items: flex-end;
+        justify-content: center;
+        float: left;  
+    }
+    
+        
+       
+        
+    .fireworks{ background-image:url(../slika/fireworks.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .gastro{ background-image:url(../slika/gastro.jpg);
+        background-position: center;
+        background-repeat: no-repeat; 
+    }
+    .kayak{ background-image:url(../slika/kayak.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .resturant{ background-image:url(../slika/restaurant.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+       
+    }
+
+    div:nth-child(1) { 
+        background-image:url(../slika/restaurant.jpg);
+        
+    }
+
+    button{ 
+        margin-bottom: 50px;
+        background-color: yellow;
+        color: aqua;
+        text-transform: uppercase;
+    }
+
+    </style>
+  
+
+</head>
+<body>
+
+    <section>
+        <div class="restaurant">
+            <button>Ne</button>
+        </div>
+        <div class="kayak">
+           <button>Da</button>
+        </div>
+        <div class="gastro">
+            <button>Mozda</button>
+        </div>
+        <div class="fireworks">
+            <button>Nije</button>
+        </div>
+
+
+
+
+
+    </section>
+    
+</body>
+</html>
