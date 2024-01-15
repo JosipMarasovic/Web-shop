@@ -1,0 +1,109 @@
+
+
+.header {
+    display: flex;
+   }
+
+   :root {
+    --clr-dark:#1f2937 ;
+    --clr-light: #d1d5db;
+    --clr-slate300: #d4d4d8;
+    --clr-slate600: #dc2626;
+    --clr-rose: #fca5a5;
+    --clr-indigo: #6366f1;
+}
+
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .top-section p {
+    color: white;
+  }
+  .bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+  .logo {
+   
+    font-size: 2rem;
+  }
+  .bottom-section .search-bar input {
+        padding: 5px;
+        width: 60%;  
+        border: solid white 2px;
+        border-radius: 5px;
+        margin-left: 13%;
+        outline: none;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    
+        }
+
+        .bottom-section .logo a {
+            text-decoration: none;
+        }
+
+    .bottom-section strong {
+            color: white;
+        }
+    .bottom-section .search-bar input:focus {
+            border-color: #6366f1; 
+            box-shadow: 0 0 5px rgba(99, 102, 241, 0.8);
+    }
+
+    .search-bar {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    
+    .navigation ul {
+        list-style: none;
+    }
+    .navigation li {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .navigation a {
+        text-decoration: none;
+        color:white;
+    }
+   
+.bottom-section .search-bar svg {
+    vertical-align: middle;
+    margin-left: 5px;
+    color: white;
+    cursor: pointer; 
+    padding: 8px; 
+    background-color: linear-gradient(rgba(50, 81, 182, 0.5), rgba(0, 0, 0, 0.8)); 
+    border-radius: 5px; 
+}
+
+
+.bottom-section .search-bar svg:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+
+    
+
+    .social-icons {
+        margin-right: 10px;
+        color:white;
+        
+    }
+
+    .social-icons a i.fab.fa-facebook,
+.social-icons a i.fab.fa-instagram {
+    color: white;
+}

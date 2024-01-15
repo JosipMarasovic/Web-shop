@@ -1,0 +1,106 @@
+body, html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.auto-height-iframe {
+    border: none;
+    width: 100%;
+}
+
+header, footer {
+    background: linear-gradient(rgba(50, 81, 182, 0.5), rgba(0, 0, 0, 0.8));
+    color: white;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.content-container a {
+    text-decoration: none; 
+    color: grey;
+}
+.content-container {
+    display: flex;
+    flex-grow: 1;
+    padding: 1rem;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.content-container .product-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.content-container h1 {
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.sidebar {
+    width: 30%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+   
+   
+}
+.sidebar form h2 {
+    
+    font-size: 36px;
+}
+
+
+
+.sidebar form {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.sidebar form button {
+    width: 50%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px
+
+   
+}
+
+.sidebar  {
+    border: solid 1px rgb(211, 208, 208);
+}
+.sidebar .radio-div {
+    margin-bottom: 20px; 
+}
+
+.sidebar .checkbox-div {
+    margin-top: 20px; 
+}
+
+.sidebar .size-filter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+

@@ -1,0 +1,79 @@
+body, html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.auto-height-iframe {
+    border: none;
+    width: 100%;
+}
+
+header, footer {
+    background: linear-gradient(rgba(50, 81, 182, 0.5), rgba(0, 0, 0, 0.8));
+    color: white;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+    align-items:flex-start; 
+    width: 60%;
+    border: 3px solid black;
+    margin: 0 auto;
+    
+}
+
+.Bag {
+    display: flex;
+    align-items: flex-start;
+    width: 100%; 
+    padding: 1rem;
+}
+
+.show-checkout {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.buttons-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-self: center; 
+}
+
+.buttons-container button {
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.buttons-container button:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+.buttons-container a {
+    text-decoration: none; 
+    color: inherit; 
+    padding: 10px; 
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 15px;
+
+    
+}
